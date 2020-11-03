@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+import "google/protobuf/wrappers.proto";
+
+message MyMessage
+{
+	google.protobuf.Int32Value Field1 =1;
+}
